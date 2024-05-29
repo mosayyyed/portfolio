@@ -45,6 +45,7 @@
     box-shadow: var(--btn-shadow);
     margin-bottom: 30px;
     border-radius: 10px;
+    box-shadow: 2px 4px 10px rgb(0, 0, 0);
   }
   
   .ui-btn span {
@@ -209,7 +210,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(assets/images/background\ img.png) no-repeat;
+    background: url(assets/images/backgrounds/horizontal_background.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -339,7 +340,7 @@ section{
 }
  
 .projects{
-    background: url(assets/images/background\ img.png) no-repeat;
+    background: url(assets/images/backgrounds/horizontal_background.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -502,14 +503,14 @@ section{
     }
 
     .projects{
-        background: url(assets/images/vertical\ background\ img.png) no-repeat;
+        background: url(assets/images/backgrounds/vertical_background.png) no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: scroll;
     }
       
     .main{
-        background: url(assets/images/vertical\ background\ img.png) no-repeat;
+        background: url(assets/images/backgrounds/vertical_background.png) no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: scroll;
@@ -561,4 +562,10 @@ section{
         width: 50px;
         height: 15.243px;
     }
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* تعديل العرض حسب الحاجة */
 }
