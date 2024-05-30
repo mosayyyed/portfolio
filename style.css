@@ -174,11 +174,12 @@ header{
     background-color:#ffffff ;
     width: 100%;
     position: fixed;
-    z-index: 999;
+    z-index: 1;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 10px 100px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 .logo{
@@ -201,11 +202,14 @@ header{
     transform: scale(1.1);
 }
 
+
 section{
-    padding: 100px 200px;
+    padding: 100px 20px;
 }
 
+
 .main{
+    padding: 100px 150px;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -510,6 +514,7 @@ section{
     }
       
     .main{
+        padding: 20px 60px;
         background: url(assets/images/backgrounds/vertical_background.png) no-repeat;
         background-size: cover;
         background-position: center;
